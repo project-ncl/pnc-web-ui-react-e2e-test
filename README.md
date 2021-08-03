@@ -1,9 +1,5 @@
 # PNC Web UI React End-to-End Tests
 
-## Bootstrapping
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Changelog
 
 [Changelog](https://github.com/project-ncl/pnc-web-ui-react-e2e-tests/wiki/Change-logs)
