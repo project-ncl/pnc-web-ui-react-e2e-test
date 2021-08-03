@@ -1,23 +1,12 @@
 {
   "name": "pnc-web-ui-react-e2e-tests",
   "version": "0.1.0",
-    "private": true,
+  "private": true,
   "description": "PNC Web UI React End-to-End Tests",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/project-ncl/pnc-web-ui-react-e2e-tests.git"
-  },
-  "author": "Dennis Zhou",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/project-ncl/pnc-web-ui-react-e2e-tests/issues"
-  },
-  "homepage": "https://github.com/project-ncl/pnc-web-ui-react-e2e-tests#readme",
-    "devDependencies": {
+  "devDependencies": {
     "cypress": "^8.0.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
