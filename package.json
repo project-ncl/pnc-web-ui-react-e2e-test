@@ -4,12 +4,14 @@
   "private": true,
   "description": "PNC Web UI React End-to-End Tests",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install",
+    "prettier-write": "prettier --write '**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
+    "prettier-check": "prettier --check '**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
   },
   "devDependencies": {
     "cypress": "^8.0.0",
     "husky": "^6.0.0",
-    "lint-staged": "^11.0.0",
+    "lint-staged": "^11.1.1",
     "prettier": "2.3.1"
   },
   "lint-staged": {
