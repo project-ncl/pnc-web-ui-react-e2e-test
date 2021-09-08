@@ -10,7 +10,21 @@
 2. `NPM` version >= 7
 3. `Prettier`
 
-First prepare project locally:
+## Environment setup
+
+Update the environment `env.json` file with the URL of PNC UI that you want to test at here: ./cypress/fixtures/env.json
+
+```
+{
+  "PNC_UI_URL": "<URL of PNC UI to Test>"
+}
+```
+
+NOTE: Headless should be false for CI environments. Set to true when developing / debugging.
+
+## Installation
+
+Prepare project locally:
 
 ```bash
 git clone <yourGitForkUrl> pnc-web-ui-react-e2e-tests
@@ -18,14 +32,24 @@ cd ./pnc-web-ui-react-e2e-tests/
 npm install
 ```
 
-Then start your test by following steps:
+## Running the tests
 
-**1) Deploy the PNC Web UI React to http://localhost:3000/**
+### GUI
 
-**2) Open the cypress GUI**
+Start your test by following steps:
+
+**1) Deploy the PNC Web UI React to the http://localhost:3000/ (if you are using the default `env.json`)**
+
+**2a) Run the test with Cypress GUI**
 
 ```bash
 npx cypress open   # Opens Cypress in the interactive GUI.
+```
+
+**2b) Run the test with command line**
+
+```bash
+npx cypress run   # Run all test cases.
 ```
 
 **3) Enjoy it!**
