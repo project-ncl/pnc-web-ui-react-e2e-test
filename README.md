@@ -43,13 +43,19 @@ Start your test by following steps:
 **2a) Run the test with Cypress GUI**
 
 ```bash
-npx cypress open   # Opens Cypress in the interactive GUI.
+npm run test-gui  # Opens Cypress in the interactive GUI.
 ```
 
-**2b) Run the test with command line**
+**2b) Run all tests with command line**
 
 ```bash
-npx cypress run   # Run all test cases.
+npm run test-cli   # Run all test cases.
+```
+
+**2c) Run specific test with command line**
+
+```bash
+npm run test-cli --spec "cypress/integration/<Test Name>.js"  # Run specific test case.
 ```
 
 **3) Enjoy it!**
