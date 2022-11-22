@@ -6,9 +6,8 @@
 
 ## Prerequisites
 
-1. `Node.js` version >= 14
-2. `NPM` version >= 7
-3. `Prettier`
+1. See `"engines"` in [package.json](./package.json) for minimum version requirements (for example `node` and `npm`)
+2. `Prettier`
 
 ## Environment setup
 
