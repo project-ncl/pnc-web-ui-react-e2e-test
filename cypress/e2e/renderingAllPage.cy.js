@@ -1,4 +1,4 @@
-<reference types="cypress" />;
+/// <reference types="cypress" />;
 
 context('When page is opened', () => {
   beforeEach(() => {
